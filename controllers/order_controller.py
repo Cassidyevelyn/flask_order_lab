@@ -1,6 +1,7 @@
 from flask import Blueprint
+from models.order_list import Order
 
-order_blueprint("order", __name__)
+order_blueprint = Blueprint("order", __name__)
 
 @order_blueprint.route("/order")
 def index():
