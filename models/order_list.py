@@ -10,5 +10,8 @@ order6 = ("Yara", "02/03/2023", 1)
 
 orders = [order1, order2, order3, order4, order5, order6]
 
+print(orders.order_date)
+
+
 
 
